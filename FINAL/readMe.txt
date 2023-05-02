@@ -8,4 +8,7 @@ Folder Structure:
 |--> Visualized Implementations: Standard PRM and ANC PRM visualized implementations with scenarios. 
 |--> Benchmarking: Testing code to explore Serial and Parallel implementations of Standard and ANC variants of PRM and relevant efficiency comparisons. 
 
-report.pdf
+The paper is also included in pdf version for reference. 
+
+Cheers! 
+PeRM team with the fly-est hair ;) 
