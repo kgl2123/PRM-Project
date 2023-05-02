@@ -1,0 +1,40 @@
+There are four Google Colab notebooks, one each running simulations for 
+
+1. Standard PRM - Serial Implementation. 
+2. Standard PRM - Parallel Implmentation. 
+3. ANC PRM - Serial Implementation. 
+4. ANC PRM - Parallel Implemntation. 
+
+All four of these testing scenarios test in the following 2-D Plane configuraiton space.
+
+
+XDIM = 640
+YDIM = 480
+w = 100
+w2 = 25
+h = 150
+h2 = 60
+X0 = XDIM/5
+Y0 = YDIM/3
+X1 = 4*XDIM/5
+Y1 = 2*YDIM/3
+CENTER_SIZE = 20
+Obs = {}
+
+Obs[0] = [(XDIM/2, YDIM/7),(XDIM/2, YDIM/3)]
+Obs[1] = [(XDIM/2, 6*YDIM/7),(XDIM/2, 2*YDIM/3)]
+
+Obs[2] = [(XDIM/6, YDIM/2),(XDIM/3, YDIM/2)]
+Obs[3] = [(5*XDIM/6, YDIM/2),(2*XDIM/3, YDIM/2)]
+Obs[4] = [(3*XDIM/6, YDIM/2+20),(2*XDIM/3+24, YDIM/2+60)]
+Obs[5] = [(XDIM/2+100, 6*YDIM/7+50),(XDIM/2+140, 2*YDIM/3+30)]
+
+Obstacle_Width = 20 
+
+XY_START = (X0+w/2,Y0+3*h/4) 
+XY_GOAL = (4*XDIM/5,5*YDIM/6)
+XY_GOAL = (X1-w/2,Y1-3*h/4)
+
+
+NOTE: FOR K-NEAREST NEIGHBOR ALGORITHMS, K = 5 FOR THE SIMULATIONS.
+      FOR R-CLOSEST NEIGHBOR ALGORITHMS, R = 3 FOR THE SIMULATIONS.
